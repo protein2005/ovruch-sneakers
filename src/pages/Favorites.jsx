@@ -11,8 +11,8 @@ function Favorites() {
         <div className="content p-40">
             <div className="d-flex align-center justify-between mb-40">
             <h1 className="titleBody">
-                <Link to="/">
-                    <button className="backHome mr-10"><img src="/img/arrow-back.svg" alt="Back Home"/></button>
+                <Link to="//">
+                    <button className="backHome mr-10"><img src="img/arrow-back.svg" alt="Back Home"/></button>
                 </Link> 
                 Мої вподобання
             </h1>
@@ -33,7 +33,7 @@ function Favorites() {
                 width={70}
                 title={"Вподобаних кросівок немає :("} 
                 description={"Ви нічого не додавали до вподобаних"}
-                image={"/img/tired.jpg"}
+                image={"img/tired.jpg"}
             />)}
         </div>
     )

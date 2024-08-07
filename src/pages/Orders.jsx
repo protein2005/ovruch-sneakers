@@ -26,8 +26,8 @@ function Orders() {
         <div className="content p-40">
             <div className="d-flex align-center justify-between mb-40">
             <h1 className="titleBody">
-                <Link to="/">
-                    <button className="backHome mr-10"><img src="/img/arrow-back.svg" alt="Back Home"/></button>
+                <Link to="//">
+                    <button className="backHome mr-10"><img src="img/arrow-back.svg" alt="Back Home"/></button>
                 </Link> 
                 Мої замовлення
             </h1>
@@ -55,7 +55,7 @@ function Orders() {
                     width={70}
                     title={"У вас немає замовлень"} 
                     description={"Ви ще не придбали кросівки? Купуйте швидше"}
-                    image={"/img/tired2.png"}
+                    image={"img/tired2.png"}
                 />)}
         </div>
     )

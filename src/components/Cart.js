@@ -7,7 +7,7 @@ function Cart(props) {
                 <p className="mb-5">{props.name}</p>
                 <b>{props.price} грн.</b>
               </div>
-              <img onClick={() => props.onRemove(props.productId)} className="removeBtn" width={40} height={40} src="/img/btn-remove.svg" alt="Remove"/>
+              <img onClick={() => props.onRemove(props.productId)} className="removeBtn" width={40} height={40} src="img/btn-remove.svg" alt="Remove"/>
             </div>
     )
 }

@@ -39,7 +39,7 @@ function Drawer({ onClose, onRemove, items = [], opened }) {
       <div className={`${styles.overlay} ${opened ? styles.overlayVisible : ''}`}>
       <div className={`${styles.drawer} d-flex flex-column`}>
         <h2 className="d-flex align-center justify-between mb-30">Корзина
-          <img onClick={onClose} className="cu-p" width={40} height={40} src="/img/btn-remove.svg" alt="Remove"/>
+          <img onClick={onClose} className="cu-p" width={40} height={40} src="img/btn-remove.svg" alt="Remove"/>
         </h2>
 
         {items.length > 0 ? 
@@ -61,7 +61,7 @@ function Drawer({ onClose, onRemove, items = [], opened }) {
               </li>
             </ul>
             <button disabled={isLoading} onClick={onClickOrder} className="greenButton">Оформити замовлення
-              <img src="/img/arrow.svg" alt="arrow"/>
+              <img src="img/arrow.svg" alt="arrow"/>
             </button>
           </div>
         </>)
@@ -69,7 +69,7 @@ function Drawer({ onClose, onRemove, items = [], opened }) {
           button={true} 
           title={isOrderComplete ? "Замовлення оформлено!" :"Корзина пуста"} 
           description={isOrderComplete ? `Ваше замовлення #${orderId} скоро буде передано кур'єрській доставці` : "Додайте хоча б одну пару кросівок, щоб зробити замовлення."} 
-          image={isOrderComplete ? "img/complete-order.jpg" : "/img/empty-cart.jpg"}
+          image={isOrderComplete ? "img/complete-order.jpg" : "img/empty-cart.jpg"}
           />)
         }
         
