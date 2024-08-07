@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ovruch-sneakers/static/css/main.ac1b86e5.css",
-    "main.js": "/ovruch-sneakers/static/js/main.a955de4c.js",
+    "main.js": "/ovruch-sneakers/static/js/main.532899f0.js",
     "index.html": "/ovruch-sneakers/index.html",
     "main.ac1b86e5.css.map": "/ovruch-sneakers/static/css/main.ac1b86e5.css.map",
-    "main.a955de4c.js.map": "/ovruch-sneakers/static/js/main.a955de4c.js.map"
+    "main.532899f0.js.map": "/ovruch-sneakers/static/js/main.532899f0.js.map"
   },
   "entrypoints": [
     "static/css/main.ac1b86e5.css",
-    "static/js/main.a955de4c.js"
+    "static/js/main.532899f0.js"
   ]
 }
